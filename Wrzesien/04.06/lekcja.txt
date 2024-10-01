@@ -1,0 +1,27 @@
+C:\Users\Pazw 4L
+λ node -e "console.log('test node js')"
+test node js
+
+C:\Users\Pazw 4L
+λ node -e "console.log(Math.pow(70,1/6))"
+2.0300948992124868
+
+C:\Users\Pazw 4L
+λ node -e "var x=70; console.log(Math.pow(x, 1/6));"
+2.0300948992124868
+
+C:\Users\Pazw 4L
+λ node -e "var x=70; var y=1/6; console.log(Math.pow(x,y));"
+2.0300948992124868
+
+C:\Users\Pazw 4L
+λ node -e "console.log(os.platform());"
+win32
+
+C:\Users\Pazw 4L
+λ node -e "var os=require('os'); console.log(os.type());"
+Windows_NT
+
+C:\Users\Pazw 4L
+λ node -e "var os=require('os'); console.log(os.type() +os.totalmem);"
+Windows_NT17054285824
